@@ -19,6 +19,23 @@ Use `doxygen <http://www.stack.nl/~dimitri/doxygen/>`__ for generating
 documentation from annotated source code.
 
 
+Coding Style & Correctness
+==========================
+
+Efforts are being made by the `Standard C++ Foundation <https://isocpp.org/about>`__ to come up with
+a set of guidelines for writing good modern C++ code `CppCoreGuidelines <https://github.com/isocpp/CppCoreGuidelines/>`__.
+Even though the document is still a work in progress there's already a lot of very useful information to get from it.
+
+
+Build Tools
+===========
+
+All project should preferably be built using the `cmake <https://cmake.org/>`__ build tools.
+
+During the past few years ``Cmake`` has become one of the most widely used build tools for C/C++ projects,
+it provides a good set of features and is capable of building from simple programs to very complex systems with ease.
+
+
 Coding Style
 ============
 
@@ -51,7 +68,7 @@ Naming Conventions
         int user_count;
         int balance;
 
-    Member variables must have a ``m_`` prefix.
+    Member variables must have an ``m_`` prefix.
 
     .. code-block:: c++
 
